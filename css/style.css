@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    background-color: aqua;
+}
+#title{
+    text-align: center;
+}
+#description{
+    text-align: center;
+}
+#survey-form{
+    text-align: center;
+    background: linear-gradient(skyblue, red);
+    
+}
+#name-label{
+    margin-right: 150px;
+    font-size: 20px;
+}
+#email-label{
+    margin-right: 90px;
+    font-size: 20px;
+
+}
+#number-label{
+    margin-right: 140px;
+    font-size: 20px;
+
+}
+#name{
+    padding-right: 80px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+#email{
+    padding-right: 80px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+#number{
+    padding-right: 80px;
+    border-radius: 10px;
+    font-size: 20px;
+}
