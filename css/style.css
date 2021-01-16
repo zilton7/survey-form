@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    background-color: aqua;
+    background-color: rgb(109, 134, 134);
 }
 
 #main {
@@ -12,14 +12,22 @@ body{
 }
 
 #title{
-    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+    margin-bottom: 0px;
+    color: white;
+
 }
 #description{
-    text-align: center;
+    color: white;
+
+    font-style: italic;
+    margin-top: 0px;
 }
+
 #survey-form{
     
-    background: linear-gradient(skyblue, red);
+    background: linear-gradient(skyblue, rgb(102, 199, 238));
     /* display: inline-block;
     position: fixed;
     right: 630px; */
@@ -39,21 +47,20 @@ body{
     font-size: 20px;
 
 }
-#name{
+#name, #email, #number, #text-area, #dropdown{
     padding-right: 80px;
     border-radius: 10px;
     font-size: 20px;
     margin-bottom: 20px;
 }
-#email{
-    padding-right: 80px;
-    border-radius: 10px;
-    font-size: 20px;
-    margin-bottom: 20px;
-}
-#number{
-    padding-right: 80px;
-    border-radius: 10px;
-    font-size: 20px;
-    margin-bottom: 20px;
-}
+
+#submit {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
