@@ -15,22 +15,34 @@
   </h1>
   <p id="description">our first microverse survey from</p>
   <form id="survey-form">
-    Enter your name
-    <br/>
-    <input type="text" name="text" id="name" placeholder="Name">
-    <br/>
-    Enter your email address
-    <br/>
-    <input type="email" name="email" id="email" placeholder="email">
-    <br/>
-    Enter your number
-    <br/>
-    <input type="number" name="number" id="number" placeholder="Number">
+    <label id="name-label">Enter your name</label>
+    <br />
+    <input type="text" name="name" id="name" placeholder="Name" required>
+    <br />
+    <label id="email-label">Enter your email address</label>
+    <br />
+    <input type="email" name="email" id="email" placeholder="email" required>
+    <br />
+    <label id="number-label">Enter your number</label>
+    <br />
+    <input type="number" name="number" id="number" placeholder="Number" min=1 max=11 required>
+    <br />
 
+    <select name="cars" id="dropdown">
+      <option value="option-1">Option 1</option>
+      <option value="option-2">Option 2</option>
+    </select>
+
+    <input type="radio" id="male" name="gender" value="male">
+    <label for="male">Male</label><br>
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">Female</label><br>
+    <input type="radio" id="other" name="gender" value="other">
+    <label for="other">Other</label>
 
   </form>
 
-  
+
   <script src="js/index.js"></script>
 </body>
 
