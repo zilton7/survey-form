@@ -9,9 +9,12 @@ body{
     text-align: center;
 }
 #survey-form{
-    text-align: center;
-    background: linear-gradient(skyblue, red);
     
+    background: linear-gradient(skyblue, red);
+    display: inline-block;
+    position: fixed;
+    right: 630px;
+    padding: 80px;
 }
 #name-label{
     margin-right: 150px;
@@ -31,14 +34,17 @@ body{
     padding-right: 80px;
     border-radius: 10px;
     font-size: 20px;
+    margin-bottom: 20px;
 }
 #email{
     padding-right: 80px;
     border-radius: 10px;
     font-size: 20px;
+    margin-bottom: 20px;
 }
 #number{
     padding-right: 80px;
     border-radius: 10px;
     font-size: 20px;
+    margin-bottom: 20px;
 }
